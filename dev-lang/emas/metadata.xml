@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<description lang="en">MERA-400 modern syntax assembler</description>
+<longdescription lang="en">
+EMAS is a modern assembler for MERA-400.
+</longdescription>
+<upstream>
+ <remote-id type="github">jakubfi/emas</remote-id>
+</upstream>
+</pkgmetadata>

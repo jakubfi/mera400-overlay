@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<description lang="en">MERA-400 software meta package</description>
+<longdescription lang="en">
+This meta package allows convenient installation of all the software
+related to MERA-400 emulation and development for that architecture.
+It includes EM400 emulator, assemblers, disassembler and other tools.
+</longdescription>
+<upstream>
+ <remote-id type="github">jakubfi/em400</remote-id>
+</upstream>
+</pkgmetadata>

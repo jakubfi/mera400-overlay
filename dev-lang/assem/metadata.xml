@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<description lang="en">MERA-400 classic syntax assembler</description>
+<longdescription lang="en">
+ASSEM is a assembler for MERA-400.
+It supports syntax used in original ASSK and ASSM assembler sources, with both K-202 and MERA-400 mnemonics.
+Additionaly, it can translate classic-syntax sources into modern-syntax, similar (but not identical) to
+the one used by EMAS.
+</longdescription>
+<upstream>
+ <remote-id type="github">jakubfi/assem</remote-id>
+</upstream>
+</pkgmetadata>

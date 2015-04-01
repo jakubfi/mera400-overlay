@@ -1,3 +1,7 @@
+# Copyright 1999-2015 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
+
 EAPI=5
 
 inherit cmake-utils
@@ -38,4 +42,3 @@ src_unpack() {
 src_configure() {
 	cmake-utils_src_configure
 }
-

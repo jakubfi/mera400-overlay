@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<description lang="en">MERA-400 EMELF object files tools and access library</description>
+<longdescription lang="en">
+EMELF is an Executable and Linkable File format for MERA 400.
+It provides library for manipulating EMELF files as well as a command-line tool, emelfread.
+</longdescription>
+<upstream>
+ <remote-id type="github">jakubfi/emelf</remote-id>
+</upstream>
+</pkgmetadata>

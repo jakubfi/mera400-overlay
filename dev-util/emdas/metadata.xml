@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<description lang="en">MERA-400 disassembler</description>
+<longdescription lang="en">
+EMDAS is a disassembler for MERA-400, available as a standalone commandline tool and a library.
+</longdescription>
+<upstream>
+ <remote-id type="github">jakubfi/emdas</remote-id>
+</upstream>
+</pkgmetadata>
