@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>mera400</name>
+		<description>MERA-400 emulation and utilities</description>
+		<homepage>https://github.com/jakubfi/mera400-overlay</homepage>
+		<owner>
+			<email>jakubf@mera400.pl</email>
+		</owner>
+		<source type="git">https://github.com/jakubfi/mera400-overlay</source>
+	</repo>
+</repositories>
