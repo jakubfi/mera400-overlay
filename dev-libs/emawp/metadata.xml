@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<description lang="en"> MERA-400 AWP (high-precision arithmetic) library</description>
+<longdescription lang="en">
+EMAWP allows operating on MERA-400 AWP (high-precision arithmetics) numbers.
+</longdescription>
+<upstream>
+ <remote-id type="github">jakubfi/emawp</remote-id>
+</upstream>
+</pkgmetadata>

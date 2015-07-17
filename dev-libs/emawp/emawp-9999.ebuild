@@ -6,13 +6,13 @@ EAPI=5
 
 inherit cmake-utils
 
-DESCRIPTION="MERA-400 emulator"
-HOMEPAGE="http://mera400.pl/EM400"
+DESCRIPTION="EMAWP allows operating on MERA-400 AWP (high-precision arithmetics) numbers"
+HOMEPAGE="http://mera400.pl/EMAWP"
 LICENSE="GPL-2"
 
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
-	EGIT_REPO_URI="git://github.com/jakubfi/em400.git"
+	EGIT_REPO_URI="git://github.com/jakubfi/emawp.git"
 	EGIT_BRANCH="master"
 	SRC_URI=""
 	KEYWORDS=""
@@ -25,19 +25,10 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="
-	sys-libs/readline
-	sys-libs/ncurses
-	dev-util/emdas
-	dev-util/emcrk
-	dev-util/emawp
 "
 DEPEND="
 	${RDEPEND}
-	sys-devel/bison
-	sys-devel/flex
 "
-
-DOCS="README.md TODO cfg/*"
 
 src_unpack() {
 	if [[ ${PV} == "9999" ]] ; then
@@ -49,12 +40,4 @@ src_unpack() {
 
 src_configure() {
 	cmake-utils_src_configure
-}
-
-pkg_postinst() {
-	elog ""
-	elog "To run EM400 you need a working configuration file in ~/.em400"
-	elog "Configuration template and sample configuration files are provided in"
-	elog "${ROOT}usr/share/doc/${PF}"
-	elog ""
 }
