@@ -29,7 +29,7 @@ RDEPEND="
 	sys-libs/ncurses
 	dev-util/emdas
 	dev-util/emcrk
-	dev-util/emawp
+	dev-libs/emawp
 "
 DEPEND="
 	${RDEPEND}
