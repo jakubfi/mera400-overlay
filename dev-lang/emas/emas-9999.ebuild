@@ -26,6 +26,7 @@ IUSE=""
 
 RDEPEND="
 	dev-libs/emelf
+	dev-libs/emawp
 "
 DEPEND="
 	sys-devel/bison
