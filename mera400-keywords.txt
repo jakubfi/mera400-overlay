@@ -7,3 +7,4 @@ dev-util/emcrk **
 app-emulation/em400 **
 app-emulation/mera400-meta **
 dev-libs/emawp **
+sys-boot/bootw **

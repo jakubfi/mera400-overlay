@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer>
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<description lang="en">CROOK-5 bootloader for MERA-400</description>
+<longdescription lang="en">
+BOOTW is an alternative CROOK-5 bootloader
+for MERA-400
+</longdescription>
+<upstream>
+ <remote-id type="github">jakubfi/bootw</remote-id>
+</upstream>
+</pkgmetadata>

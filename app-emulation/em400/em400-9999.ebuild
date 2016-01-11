@@ -1,6 +1,6 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
@@ -25,8 +25,8 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="
-	sys-libs/readline
-	sys-libs/ncurses
+	sys-libs/readline:0=
+	sys-libs/ncurses:0=
 	dev-util/emdas
 	dev-util/emcrk
 	dev-libs/emawp
@@ -56,5 +56,8 @@ pkg_postinst() {
 	elog "To run EM400 you need a working configuration file in ~/.em400"
 	elog "Configuration template and sample configuration files are provided in"
 	elog "${ROOT}usr/share/doc/${PF}"
+	elog ""
+	elog "If you want to run CROOK-5 operating system in EM400, see this article:"
+	elog "http://mera400.pl/CROOK-5_w_EM400 (in Polish)"
 	elog ""
 }

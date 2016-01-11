@@ -1,13 +1,12 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2016 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=5
 
 DESCRIPTION="MERA-400 emulation meta package"
 HOMEPAGE="http://mera400.pl"
 LICENSE="GPL-2"
-
 
 if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
@@ -25,5 +24,6 @@ RDEPEND="
 	dev-util/emdas
 	dev-util/emcrk
 	app-emulation/em400
+	sys-boot/bootw
 "
 DEPEND=""
