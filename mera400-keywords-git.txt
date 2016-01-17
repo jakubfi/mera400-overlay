@@ -1,0 +1,10 @@
+dev-libs/emelf **
+dev-util/emlin **
+dev-lang/assem **
+dev-lang/emas **
+dev-util/emdas **
+dev-util/emcrk **
+app-emulation/em400 **
+app-emulation/mera400-meta **
+dev-libs/emawp **
+sys-boot/bootw **

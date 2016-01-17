@@ -4,15 +4,11 @@
 
 EAPI=5
 
-DESCRIPTION="MERA-400 emulation meta package"
+DESCRIPTION="MERA-400 emulation and tools meta package"
 HOMEPAGE="http://mera400.pl"
 LICENSE="GPL-2"
 
-if [[ ${PV} == "9999" ]] ; then
-	KEYWORDS=""
-else
-	KEYWORDS="-* ~amd64 ~x86 ~x86-fbsd"
-fi
+KEYWORDS="-* ~amd64 ~x86 ~x86-fbsd"
 
 SLOT="0"
 IUSE=""

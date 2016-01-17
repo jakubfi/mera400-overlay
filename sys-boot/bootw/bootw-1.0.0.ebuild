@@ -15,7 +15,7 @@ if [[ ${PV} == "9999" ]] ; then
 	SRC_URI=""
 	KEYWORDS=""
 else
-	SRC_URI="http://mera400.pl/sources/${PN}/${P}.tar.bz2"
+	SRC_URI="http://mera400.pl/releases/${PN}/${P}.tar.gz"
 	KEYWORDS="-* ~amd64 ~x86 ~x86-fbsd"
 fi
 
@@ -32,7 +32,7 @@ src_unpack() {
 	if [[ ${PV} == "9999" ]] ; then
 		git-r3_src_unpack
 	else
-		unpack ${P}.tar.bz2
+		unpack ${P}.tar.gz
 	fi
 }
 
