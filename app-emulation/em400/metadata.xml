@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-<maintainer>
+<maintainer type="person">
 	<email>jakubf@mera400.pl</email>
 </maintainer>
-<description lang="en">MERA-400 emulator</description>
 <longdescription lang="en">
 EM400 is an emulator of Polish MERA-400 minicomputer system
 built in late '70 and popular in the '80).

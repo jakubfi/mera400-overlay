@@ -1,4 +1,4 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -12,7 +12,7 @@ LICENSE="GPL-2"
 
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
-	EGIT_REPO_URI="git://github.com/jakubfi/assem.git"
+	EGIT_REPO_URI="https://github.com/jakubfi/assem"
 	EGIT_BRANCH="master"
 	SRC_URI=""
 	KEYWORDS=""
