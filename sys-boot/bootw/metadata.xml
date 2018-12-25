@@ -9,6 +9,6 @@ BOOTW is an alternative CROOK-5 bootloader
 for MERA-400
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/bootw</remote-id>
+	<remote-id type="github">jakubfi/bootw</remote-id>
 </upstream>
 </pkgmetadata>

@@ -8,6 +8,6 @@
 EMAWP allows operating on MERA-400 AWP (high-precision arithmetics) numbers.
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/emawp</remote-id>
+	<remote-id type="github">jakubfi/emawp</remote-id>
 </upstream>
 </pkgmetadata>

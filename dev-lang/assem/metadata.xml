@@ -11,6 +11,6 @@ Additionaly, it can translate classic-syntax sources into modern-syntax, similar
 the one used by EMAS.
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/assem</remote-id>
+	<remote-id type="github">jakubfi/assem</remote-id>
 </upstream>
 </pkgmetadata>

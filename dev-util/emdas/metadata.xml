@@ -8,6 +8,6 @@
 EMDAS is a disassembler for MERA-400, available as a standalone commandline tool and a library.
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/emdas</remote-id>
+	<remote-id type="github">jakubfi/emdas</remote-id>
 </upstream>
 </pkgmetadata>

@@ -8,6 +8,6 @@
 EMLIN is a linker for MERA 400 EMELF objects.
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/emlin</remote-id>
+	<remote-id type="github">jakubfi/emlin</remote-id>
 </upstream>
 </pkgmetadata>

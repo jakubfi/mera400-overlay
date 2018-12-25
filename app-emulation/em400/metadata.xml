@@ -10,6 +10,6 @@ built in late '70 and popular in the '80).
 Learn more at: http://mera400.pl
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/em400</remote-id>
+	<remote-id type="github">jakubfi/em400</remote-id>
 </upstream>
 </pkgmetadata>

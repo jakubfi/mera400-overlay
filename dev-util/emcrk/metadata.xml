@@ -9,6 +9,6 @@ EMCRK is a library for reading and manipulating various CROOK data structures.
 This package also provides tools like r40 and crkfind.
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/emcrk</remote-id>
+	<remote-id type="github">jakubfi/emcrk</remote-id>
 </upstream>
 </pkgmetadata>

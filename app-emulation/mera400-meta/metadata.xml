@@ -10,6 +10,6 @@ related to MERA-400 emulation and development for that architecture.
 It includes EM400 emulator, assemblers, disassembler and other tools.
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/em400</remote-id>
+	<remote-id type="github">jakubfi/em400</remote-id>
 </upstream>
 </pkgmetadata>

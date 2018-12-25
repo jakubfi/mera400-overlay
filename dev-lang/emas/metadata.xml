@@ -8,6 +8,6 @@
 EMAS is a modern assembler for MERA-400.
 </longdescription>
 <upstream>
- <remote-id type="github">jakubfi/emas</remote-id>
+	<remote-id type="github">jakubfi/emas</remote-id>
 </upstream>
 </pkgmetadata>
