@@ -1,17 +1,17 @@
 # Copyright 1999-2019 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI=5
 
 inherit cmake-utils
 
-DESCRIPTION="Assembler for MERA-400"
+DESCRIPTION="MERA-400 modern syntax assembler"
 HOMEPAGE="http://mera400.pl/EMAS"
 LICENSE="GPL-2"
 
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/jakubfi/emas"
+	EGIT_REPO_URI="git://github.com/jakubfi/emas.git"
 	EGIT_BRANCH="master"
 	SRC_URI=""
 	KEYWORDS=""
@@ -21,7 +21,7 @@ else
 fi
 
 SLOT="0"
-IUSE="vim-syntax"
+IUSE=""
 
 RDEPEND="
 	dev-libs/emelf
@@ -42,14 +42,4 @@ src_unpack() {
 
 src_configure() {
 	cmake-utils_src_configure
-}
-
-src_install() {
-	cmake-utils_src_install
-	if use vim-syntax; then
-		insinto /usr/share/vim/vimfiles/syntax
-		doins vim/syntax/emas.vim
-		insinto /usr/share/vim/vimfiles/ftdetect
-		doins vim/ftdetect/emas.vim
-	fi
 }
