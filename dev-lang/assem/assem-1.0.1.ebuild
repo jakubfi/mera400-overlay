@@ -5,13 +5,13 @@ EAPI=7
 
 inherit cmake
 
-DESCRIPTION="MERA-400 modern syntax assembler"
-HOMEPAGE="http://mera400.pl/EMAS"
+DESCRIPTION="MERA-400 classic syntax assembler"
+HOMEPAGE="http://mera400.pl/ASSEM"
 LICENSE="GPL-2"
 
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
-	EGIT_REPO_URI="git://github.com/jakubfi/emas.git"
+	EGIT_REPO_URI="git://github.com/jakubfi/assem.git"
 	EGIT_BRANCH="master"
 	SRC_URI=""
 	KEYWORDS=""
@@ -24,8 +24,6 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="
-	dev-libs/emelf
-	dev-libs/emawp
 "
 DEPEND="
 	sys-devel/bison

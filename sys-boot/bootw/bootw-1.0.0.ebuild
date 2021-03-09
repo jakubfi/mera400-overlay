@@ -1,7 +1,7 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=7
 
 DESCRIPTION="CROOK-5 bootloader for MERA-400"
 HOMEPAGE="http://mera400.pl/BOOTW"
@@ -15,7 +15,7 @@ if [[ ${PV} == "9999" ]] ; then
 	KEYWORDS=""
 else
 	SRC_URI="http://mera400.pl/releases/${PN}/${P}.tar.gz"
-	KEYWORDS="-* ~amd64 ~x86 ~x86-fbsd"
+	KEYWORDS="-* ~amd64 ~x86"
 fi
 
 SLOT="0"

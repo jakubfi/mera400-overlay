@@ -1,9 +1,9 @@
-# Copyright 1999-2019 Gentoo Foundation
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI="6"
+EAPI="7"
 
-inherit cmake-utils
+inherit cmake
 
 DESCRIPTION="Assembler for MERA-400"
 HOMEPAGE="http://mera400.pl/EMAS"
@@ -41,11 +41,11 @@ src_unpack() {
 }
 
 src_configure() {
-	cmake-utils_src_configure
+	cmake_src_configure
 }
 
 src_install() {
-	cmake-utils_src_install
+	cmake_src_install
 	if use vim-syntax; then
 		insinto /usr/share/vim/vimfiles/syntax
 		doins vim/syntax/emas.vim

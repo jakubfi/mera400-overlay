@@ -1,13 +1,13 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=5
+EAPI=7
 
 DESCRIPTION="MERA-400 emulation and tools meta package"
 HOMEPAGE="http://mera400.pl"
 LICENSE="GPL-2"
 
-KEYWORDS="-* ~amd64 ~x86 ~x86-fbsd"
+KEYWORDS="-* ~amd64 ~x86"
 
 SLOT="0"
 IUSE=""
