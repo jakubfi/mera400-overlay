@@ -24,7 +24,6 @@ SLOT="0"
 IUSE="vim-syntax"
 
 RDEPEND="
-	dev-libs/emelf
 	dev-libs/emawp
 "
 DEPEND="
