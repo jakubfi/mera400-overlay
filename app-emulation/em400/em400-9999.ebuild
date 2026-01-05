@@ -34,7 +34,7 @@ DEPEND="
 	sys-devel/flex
 "
 
-DOCS="README.md TODO cfg/*"
+DOCS="README.md cfg/*"
 
 src_unpack() {
 	if [[ ${PV} == "9999" ]] ; then

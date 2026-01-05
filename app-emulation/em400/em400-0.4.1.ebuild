@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit git-r3 cmake
+
 DESCRIPTION="MERA-400 emulator"
 HOMEPAGE="http://mera400.pl/EM400"
 LICENSE="GPL-2"
@@ -34,7 +36,7 @@ DEPEND="
 	sys-devel/flex
 "
 
-DOCS="README.md TODO cfg/*"
+DOCS="README.md cfg/*"
 
 src_unpack() {
 	if [[ ${PV} == "9999" ]] ; then
@@ -42,10 +44,6 @@ src_unpack() {
 	else
 		unpack ${P}.tar.gz
 	fi
-}
-
-src_configure() {
-	cmake_src_configure
 }
 
 pkg_postinst() {

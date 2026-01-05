@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+<maintainer type="person">
+	<email>jakubf@mera400.pl</email>
+</maintainer>
+<longdescription lang="en">
+Korkonf is a configuration editor for CROOK-5,
+an operating system for MERA-400.
+Learn more at: http://mera400.pl/CROOK
+</longdescription>
+<upstream>
+	<remote-id type="github">jakubfi/krokonf</remote-id>
+</upstream>
+</pkgmetadata>

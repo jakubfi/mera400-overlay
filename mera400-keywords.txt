@@ -1,11 +1,8 @@
 dev-libs/emawp ~amd64 ~x86
 dev-util/emcrk ~amd64 ~x86
-dev-libs/emelf ~amd64 ~x86
 dev-util/emdas ~amd64 ~x86
 app-emulation/em400 ~amd64 ~x86
 dev-lang/emas ~amd64 ~x86
-dev-util/emlin ~amd64 ~x86
 dev-lang/assem ~amd64 ~x86
 app-emulation/mera400-meta ~amd64 ~x86
-
-sys-boot/bootw
+app-misc/krokonf ~amd64 ~x86

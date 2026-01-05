@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit git-r3 cmake
+
 DESCRIPTION="EMAWP allows operating on MERA-400 AWP (high-precision arithmetics) numbers"
 HOMEPAGE="http://mera400.pl/EMAWP"
 LICENSE="GPL-2"
@@ -33,8 +35,4 @@ src_unpack() {
 	else
 		unpack ${P}.tar.gz
 	fi
-}
-
-src_configure() {
-	cmake_src_configure
 }

@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit git-r3 cmake
+
 DESCRIPTION="MERA-400 classic syntax assembler"
 HOMEPAGE="http://mera400.pl/ASSEM"
 LICENSE="GPL-2"
@@ -34,8 +36,4 @@ src_unpack() {
 	else
 		unpack ${P}.tar.gz
 	fi
-}
-
-src_configure() {
-	cmake_src_configure
 }

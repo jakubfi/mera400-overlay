@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit git-r3 cmake
+
 DESCRIPTION="Assembler for MERA-400"
 HOMEPAGE="http://mera400.pl/EMAS"
 LICENSE="GPL-2"
@@ -35,10 +37,6 @@ src_unpack() {
 	else
 		unpack ${P}.tar.gz
 	fi
-}
-
-src_configure() {
-	cmake_src_configure
 }
 
 src_install() {

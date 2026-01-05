@@ -3,13 +3,15 @@
 
 EAPI=8
 
-DESCRIPTION="MERA-400 modern syntax assembler"
-HOMEPAGE="http://mera400.pl/EMAS"
+inherit git-r3 cmake
+
+DESCRIPTION="MERA-400 disassembler"
+HOMEPAGE="http://mera400.pl/EMDAS"
 LICENSE="GPL-2"
 
 if [[ ${PV} == "9999" ]] ; then
 	inherit git-r3
-	EGIT_REPO_URI="git://github.com/jakubfi/emas.git"
+	EGIT_REPO_URI="git://github.com/jakubfi/emdas.git"
 	EGIT_BRANCH="master"
 	SRC_URI=""
 	KEYWORDS=""
@@ -22,12 +24,10 @@ SLOT="0"
 IUSE=""
 
 RDEPEND="
-	dev-libs/emelf
 	dev-libs/emawp
 "
 DEPEND="
-	sys-devel/bison
-	sys-devel/flex
+	${RDEPEND}
 "
 
 src_unpack() {
@@ -36,8 +36,4 @@ src_unpack() {
 	else
 		unpack ${P}.tar.gz
 	fi
-}
-
-src_configure() {
-	cmake_src_configure
 }
