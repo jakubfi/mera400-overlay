@@ -20,8 +20,7 @@ IUSE=""
 QTMIN=5.15.2
 
 DEPEND="
-	>=dev-qt/qtgui-${QTMIN}:5
-	>=dev-qt/qtwidgets-${QTMIN}:5
+	dev-qt/qtbase:6
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
